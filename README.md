@@ -5,7 +5,8 @@ https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1
 
 Here is a new approach to use the pivot alogrithm of quick sort, if the returned pivot index from alogrithm is the same as of k-1 , we  got the k th min, otherwise call the alogrithm left or right side recrusively and get the pivot index accordingly.
 
-{
+````
+```
 class Solution{
     public static int kthSmallest(int[] arr, int l, int r, int k) 
     { 
@@ -46,4 +47,5 @@ class Solution{
         return pivot;
     }
 }
-}
+````
+```
